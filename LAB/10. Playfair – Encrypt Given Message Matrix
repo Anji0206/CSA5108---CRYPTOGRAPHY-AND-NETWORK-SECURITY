@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+ char m[]="MUSTSEEYOUOVERCADOGANWESTCOMINGATONCE";
+ printf("Encrypt using the given Playfair matrix.\n");
+ printf("Message: %s",m);
+}
