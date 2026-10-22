@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main(){
+ char c[]="KXJEYUREBEZWEHEWRYTUHEYFSKREHEGOYFIWTTTUOLKSYCAJPOBOTEIZONTXBYBNTGONEYC..."; 
+ printf("Use Playfair 5x5 matrix to decrypt the given ciphertext.");
+}
