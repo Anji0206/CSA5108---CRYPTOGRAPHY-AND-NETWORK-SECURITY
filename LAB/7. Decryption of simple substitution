@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char s[]="53‡‡†305))6*;4826)4‡.)4‡);806*;48†8¶60))85;;]8*;:‡*8†83";
+    char key[256]={0}, c;
+    
+    key['6']='e'; key['8']='t'; key['4']='h';  // guessed mappings
+
+    for(int i=0;s[i];i++)
+        putchar(key[(unsigned char)s[i]] ? key[(unsigned char)s[i]] : s[i]);
+
+    return 0;
+}
