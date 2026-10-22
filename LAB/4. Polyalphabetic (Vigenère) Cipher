@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char p[100],k[100]; int i;
+    scanf("%s%s",p,k);
+    for(i=0;p[i];i++)
+        p[i]=(p[i]-'A'+k[i%strlen(k)]-'A')%26+'A';
+    printf("%s",p);
+}
