@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+ char p[100],k[]="CIPHERABDGJKLMNOQSTUVWXYZ"; int i;
+ scanf("%s",p);
+ for(i=0;p[i];i++) p[i]=k[p[i]-'A'];
+ printf("%s",p);
+}
