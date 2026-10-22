@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    char c[100]; int i,x;
+    scanf("%s",c);
+    for(i=0;c[i];i++){
+        x=(9*((c[i]-'A')-15+26))%26;
+        c[i]=x+'A';
+    }
+    printf("Plaintext: %s",c);
+}
