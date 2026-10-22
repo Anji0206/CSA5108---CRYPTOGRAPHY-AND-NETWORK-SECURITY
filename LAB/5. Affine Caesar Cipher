@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    int p,a,b,c;
+    scanf("%d%d%d",&p,&a,&b);
+    c=(a*p+b)%26;
+    printf("%d",c);
+}
