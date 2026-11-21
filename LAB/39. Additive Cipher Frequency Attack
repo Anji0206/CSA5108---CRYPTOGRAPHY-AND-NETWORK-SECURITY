@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    char c[100]; int i,k;
+    scanf("%s",c);
+    for(k=0;k<26;k++){
+        printf("\nKey %d: ",k);
+        for(i=0;c[i];i++)
+            putchar((c[i]-'A'-k+26)%26+'A');
+    }
+}
