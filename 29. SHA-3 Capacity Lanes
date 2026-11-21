@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int rate=1024,capacity=576;
+    printf("Rate=%d\n",rate);
+    printf("Capacity=%d\n",capacity);
+    printf("Nonzero lanes enter through message block.");
+}
