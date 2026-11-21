@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+ int p=59,q=61,e=31,d;
+ int phi=(p-1)*(q-1);
+ for(d=1;(e*d)%phi!=1;d++);
+ printf("Private key d = %d\n",d);
+ return 0;
+}
