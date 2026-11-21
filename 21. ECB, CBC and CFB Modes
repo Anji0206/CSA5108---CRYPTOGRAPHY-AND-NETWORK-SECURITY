@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+ int p=10,k=7,iv=5;
+ printf("ECB: %d\n",p^k);
+ printf("CBC: %d\n",(p^iv)^k);
+ printf("CFB: %d\n",p^(iv^k));
+ return 0;
+}
