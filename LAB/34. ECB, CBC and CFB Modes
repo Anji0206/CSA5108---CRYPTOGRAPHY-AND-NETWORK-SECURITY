@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    printf("1. ECB Mode\n");
+    printf("2. CBC Mode\n");
+    printf("3. CFB Mode\n");
+    printf("Padding: 1 followed by zeros");
+}
