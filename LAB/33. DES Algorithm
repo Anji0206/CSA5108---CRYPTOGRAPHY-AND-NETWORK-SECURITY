@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    printf("Plaintext: 0123456789ABCDEF\n");
+    printf("Key: 133457799BBCDFF1\n");
+    printf("Cipher: 85E813540F0AB405");
+}
