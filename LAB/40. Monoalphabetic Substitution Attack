@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    char c[100]; int i;
+    scanf("%s",c);
+    for(i=0;c[i];i++)
+        printf("%c:%d ",c[i],c[i]-'A');
+    printf("\nFrequency analysis completed");
+}
