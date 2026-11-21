@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    int p,a,b;
+    scanf("%d%d%d",&p,&a,&b);
+    printf("Cipher=%d",(a*p+b)%26);
+}
