@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int X=10,T=20;
+    printf("X=%d\n",X);
+    printf("T=%d\n",T);
+    printf("Second block=%d\n",X^T);
+    printf("Forged MAC=%d",T);
+}
