@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+ int p=65,iv=10;
+ int c=(5*(p^iv)+7)%256;
+ int d=(((c-7+256)*205)%256)^iv;
+ printf("Cipher: %d\nPlain: %c\n",c,d);
+ return 0;
+}
