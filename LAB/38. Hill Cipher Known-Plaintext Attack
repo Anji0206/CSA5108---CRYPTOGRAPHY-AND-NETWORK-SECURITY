@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main(){
+    printf("Known plaintext attack\n");
+    printf("Key = C * P inverse mod 26");
+}
