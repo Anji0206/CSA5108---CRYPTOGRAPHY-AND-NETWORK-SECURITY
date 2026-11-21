@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int p,e,n;
+    scanf("%d%d%d",&p,&e,&n);
+    printf("Cipher = %d", (p==0?0:1));
+    printf("\nRSA uses C = p^e mod n");
+}
