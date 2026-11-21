@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int k1=5,k2=9;
+    printf("First signature k=%d\n",k1);
+    printf("Second signature k=%d\n",k2);
+    printf("DSA signatures are different");
+}
