@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+ int a=10,b=35,r;
+ while(b){r=a%b;a=b;b=r;}
+ printf("GCD = %d\n",a);
+ return 0;
+}
