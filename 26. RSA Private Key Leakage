@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){
+ printf("Private key leaked!\n");
+ printf("Generate new modulus and keys.\n");
+ return 0;
+}
